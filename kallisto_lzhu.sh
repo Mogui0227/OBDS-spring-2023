@@ -38,10 +38,10 @@
 #kallisto --output=%j_%x.out
 #kallisto --error=%j_%x.err
 
-##cd /project/obds/lzhu/1_linux/2_rnaseq/1_fastq/kallisto
+cd /project/obds/lzhu/1_linux/2_rnaseq/1_fastq/
 
-kallisto quant -i /project/obds/lzhu/1_linux/2_rnaseq/1_fastq/kallisto_index \ 
--o /project/obds/lzhu/1_linux/2_rnaseq/1_fastq/kallisto \   
+kallisto quant -i /project/obds/lzhu/1_linux/2_rnaseq/1_fastq/mus_musculus_ensemble_index \
+-o /project/obds/lzhu/1_linux/2_rnaseq/1_fastq/kallisto \
 --rf-stranded  ERR1755084_1.fastq.gz  ERR1755084_2.fastq.gz
 
 
